@@ -120,7 +120,7 @@ export default function BirthdayWebsite() {
               <p className="text-xl text-rose-900 leading-10 font-medium animate-pulse">
                 بحبك يا نودي يا كل حياتي وروحي كلها وبعشقك وبموت فيكي يا أجمل وأحلى وأرق بنوتة في العالم كله ❤️
                 <br /><br />
-                بحبك يا مراتي 💋💋
+                بحبك  ❤️ 
                 <br /><br />
                 وإن شاء الله كمان كام شهر نكون مخطوبين ونتجوز في أسرع وقت يا حياتي كلها 😍😍💋🌎
               </p>
