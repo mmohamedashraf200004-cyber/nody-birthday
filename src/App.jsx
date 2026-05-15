@@ -97,14 +97,14 @@ export default function BirthdayWebsite() {
             </h1>
 
             <audio controls autoPlay loop className="mx-auto mb-10 w-full max-w-xl rounded-full shadow-[0_0_50px_rgba(255,105,180,0.5)] animate-pulse">
-              <source src="/song.mp3" type="audio/mpeg" />
+              <source src={`${import.meta.env.BASE_URL}song.mp3`} type="audio/mpeg" />
             </audio>
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               {[1,2,3,4].map((img) => (
                 <div key={img} className="rounded-[2rem] overflow-hidden shadow-xl bg-white hover:scale-110 hover:rotate-1 transition duration-500 animate-pulse">
                   <img
-                    src={`/images/${img}.jpeg`}
+                    src={`${import.meta.env.BASE_URL}images/${img}.jpeg`}
                     alt="memory"
                     className="w-full h-[300px] object-cover"
                   />
@@ -124,6 +124,21 @@ export default function BirthdayWebsite() {
                 <br /><br />
                 وإن شاء الله كمان كام شهر نكون مخطوبين ونتجوز في أسرع وقت يا حياتي كلها 😍😍💋🌎
               </p>
+              <div className="mt-10">
+  <h2 className="text-3xl font-bold text-rose-700 mb-5">
+    🎥 فيديو لينا
+  </h2>
+
+  <video
+    controls
+    className="w-full max-w-3xl mx-auto rounded-[2rem] shadow-2xl"
+  >
+    <source
+      src={`${import.meta.env.BASE_URL}video.mp4`}
+      type="video/mp4"
+    />
+  </video>
+</div>
             </div>
           </div>
         </div>
